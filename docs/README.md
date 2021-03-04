@@ -166,6 +166,105 @@ for detecting AD biomarkers.
 
 ## Methodology
 
+Data collection
+
+We used a data set available in National Center for Biotechnology Information (NCBI) database under the access number
+GSE46579. It includes 70 samples with 22 control and 48 AD
+and 2652 miRNAs.
+
+Preprocessing
+
+The Next Generation Sequencing data preprocessing was
+done using the Galaxy platform. Galaxy is a web-based, 
+opensource platform for scientific data analysis. First, the quality
+report of sequencing data was generated using the FastQC
+tool. Then, using the tool Trim Galore, data trimming was
+performed. The package Trim Galore allows both quality
+trimming and adapter trimming at once. Low-quality reads and
+adapters were removed from sequence read in the trimming
+procedure. Trimming increases the quality of sequences. Next,
+the data filtering procedure was performed using the Filter
+FASTQ tool. Short read sequences and low-quality sequences
+were removed in filtering. After that, the NGS reads were
+mapped against a reference genome (h38) using Bowtie2.
+Bowtie2 tool aligns sequences to the long reference sequences.
+Then, the reads were mapped against the hsa.gff3 miRNA
+precursor sequences from the miRBase database (v22) and
+the number of read counts of each miRNA was found using
+the htseq-count tool. This preprocessing procedure was done
+for every sample using the galaxy platform and then the
+summarized dataset was created with miRNA read counts of
+each sample. For the analysis purposes we used a data set with
+highly abundant miRNAs. To do that we considered miRNAs
+with read counts less than 50 across all samples of AD and
+control separately, as lowly abundant and removed them from
+the data set. Considering the mean distribution of the data
+set, we normalized the data set using quantile normalization
+technique instead of general normalization technique.
+
+Statistical Analysis
+
+Normalized data set obtained from the previous stage was
+further analyzed with significance value and fold change to
+reduce the number of features. We calculated the pValues for
+each miRNA using Wilicoxon-Mann-Whitney (WMW) test.
+Generally, fold change is a technique which is used to get
+an idea of how much change occurs going from one value
+to another. In this project we tried to get fold change values
+(log2) for each miRNA, to check the significant changes of
+each miRNA across AD and control samples. We used cut
+off values for pValues and fold changes values as 0.05 and
+1 respectively, to obtain the highly expressed set of miRNAs.
+For each of those filtered features, we calculated the AUC
+values. Using those AUC values, another set of features were
+filtered out. Features with AUC score less than or equal to 0.5
+were ignored as they don’t make a significant impact on the
+classification of the data set.
+
+Feature Selection
+
+Initially we used two different methods as PCA and Random
+Forest for selecting the best set of features. For the data
+set we obtained from the previous stage, we separately did
+PCA analysis and Random Forest analysis. Univariate feature
+selection method was used to decide how many features we
+needed to select from each. Features which have a significant
+relationship with the class value were identified from this
+univariate feature selection method. Next, the set of overlapped
+miRNAs from those two methods was identified as the best set
+of features which could be obtained from this part of feature
+selection. In the next part of the feature selection stage, we
+used correlation coefficient. As the correlation coefficient, we
+used Pearson correlation coefficient (Figure 1).
+
+Classification
+
+Classification accuracy was used to see how accurate our
+predictions were. A set of machine learning algorithms were
+modelled for the initial data set and out of those the most
+accurate algorithms were identified. Those each pre-identified
+algorithms were used for obtaining the classification accuracy
+of the final data set with biomarker miRNAs.
+
+Validation
+
+For validating the results we used Human MiRNA Disease
+Database version 3.2 (HMDD v3.2). HMDD contains a large
+set of miRNAs and related diseases collected from the literature. There are 35547 miRNA-disease associations in version
+3.2 and it includes 1206 miRNAs, 893 diseases from 19280
+related publications.
+
+• hsa-let-7g-5p
+• hsa-let-7f-5p
+• hsa-let-7a-5p
+• hsa-miR-30d-5p
+• hsa-miR-15a-5p
+• hsa-miR-589-5p
+• hsa-miR-144-5p
+• hsa-let-7f-5p
+We used heat maps for making a judgement on the correlation of each features obtained from previously mentioned two
+methods. Fig. 2 and Fig. 3 show how different features obtained from PCA and Random Forest analysis, are correlated.
+
 ## Experiment Setup and Implementation
 
 ## Results and Analysis
