@@ -272,24 +272,32 @@ miRNAs and at the end of the statistical analysis, we identified
 univariate feature selection method, we identified 50 miRNAs
 which have a significance relationship with class value. We
 identified 14 common miRNAs from two sets of miRNAs
-selected from PCA and random forest analysis. They are,
-• hsa-miR-186-5p
-• hsa-miR-144-3p
-• hsa-miR-151a-3p
-• hsa-miR-99b-5p
-• hsa-miR-98
-• hsa-miR-148a-3p
-• hsa-let-7g-5p
-• hsa-let-7f-5p
-• hsa-let-7a-5p
-• hsa-miR-30d-5p
-• hsa-miR-15a-5p
-• hsa-miR-589-5p
-• hsa-miR-144-5p
-• hsa-let-7f-5p
+selected from PCA and random forest analysis. 
+They are hsa-miR-186-5p, hsa-miR-144-3p, hsa-miR-151a-3p,
+hsa-miR-99b-5p, hsa-miR-98, hsa-miR-148a-3p, hsa-let-7g-5p, 
+hsa-let-7f-5p, hsa-let-7a-5p, hsa-miR-30d-5p, hsa-miR-15a-5p,
+hsa-miR-589-5p, hsa-miR-144-5p, and hsa-let-7f-5p.
 We used heat maps for making a judgement on the correlation of each features obtained from previously mentioned two
-methods. Fig. 2 and Fig. 3 show how different features obtained from PCA and Random Forest analysis, are correlated.
+methods. Figure 2 and Figure 3 show how different features obtained from PCA and Random Forest analysis, are correlated.
 
+With the help of the heat maps, we decided to use 36 less
+correlated features for further analysis using correlation coefficients. Out of the different machine learning algorithms which
+we modelled for our initial data set, we identified the three
+most accurate algorithms namely, Support Vector Machine,
+Logistic Regression and Random Forest. For the data set with
+the 36 miRNAs, we calculated classification accuracy using
+those three models by varying the correlation coefficients. For
+each model we identified a correlation coefficient which gave
+the highest accuracy. Fig. 4 shows the plots with correlation
+coefficient against the classification accuracy of three models The three correlation coefficients were 0.9975, 0.5875 and
+0.5300 for SVM, Logistic Regression and Random Forest
+respectively. Using those 3 correlation coefficients, three sub
+sets of miRNAs were obtained from the earlier used 36. As we
+calculated classification accuracy for the previously mentioned
+three subsets, we identified 11 miRNAs which provided the
+highest classification accuracy. They are, hsa-miR-4781-3p, brain-miR-112, hsa-let-7a-5p,
+hsa-miR-148b-5p, hsa-miR-29b-3p, brain-miR-431, hsa-miR-378a-5p, hsa-miR-548h-5p, hsa-miR-3909, 
+hsa-miR-625-5p, and hsa-miR-24-3p
 ## Conclusion
 
 ## Publications
