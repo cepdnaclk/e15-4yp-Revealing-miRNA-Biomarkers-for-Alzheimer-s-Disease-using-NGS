@@ -178,7 +178,7 @@ The Next Generation Sequencing data preprocessing was
 done using the Galaxy platform. Galaxy is a web-based, 
 opensource platform for scientific data analysis. First, the quality
 report of sequencing data was generated using the FastQC
-tool. Then, using the tool Trim Galore, data trimming was
+tool. Then, using the Trim Galore tool, data trimming was
 performed. The package Trim Galore allows both quality
 trimming and adapter trimming at once. Low-quality reads and
 adapters were removed from sequence read in the trimming
@@ -294,7 +294,21 @@ three subsets, we identified 11 miRNAs which provided the
 highest classification accuracy. They are, hsa-miR-4781-3p, brain-miR-112, hsa-let-7a-5p,
 hsa-miR-148b-5p, hsa-miR-29b-3p, brain-miR-431, hsa-miR-378a-5p, hsa-miR-548h-5p, hsa-miR-3909, 
 hsa-miR-625-5p, and hsa-miR-24-3p.
+
 ## Conclusion
+
+In this study, we analyzed a data set with 70 samples
+including 48 AD and 22 controls in order to obtain miRNA 
+biomarkers for AD. A set of 25 differentially expressed
+miRNAs was identified at the end of the research. For the
+evaluation purposes, we calculated the classification accuracies
+of our results with machine learning algorithms. Addition
+to that we evaluated the results with specificity, sensitivity
+and AUC values. However, to choose the best out of the 25
+miRNAs, we need to analyze them again with a different
+statistical approach. The idea of using a data set with a larger
+number of samples (more than 70) can be mentioned as one
+improvement that can be done at the initial stage of the project.
 
 ## Publications
 1. [Semester 7 report](./)
