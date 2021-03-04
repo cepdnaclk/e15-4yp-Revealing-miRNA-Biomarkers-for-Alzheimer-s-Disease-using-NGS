@@ -3,8 +3,8 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: eYY-4yp-project-template
-title:
+repository-name: e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS
+title: Revealing miRNA Biomarkers for Alzheimer's Disease using Next Generation Sequencing data
 ---
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
