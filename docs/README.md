@@ -265,8 +265,8 @@ At the end of the preprocessing stage, a data set with
 513 highly abundant miRNAs was obtained after removing
 miRNAs with less than 50 read counts across all samples.
 Considering the cut-off significance value as 0.05 and fold
-change (log2) as 1, the number of features were reduced up to
-228. With the AUC analysis we further reduced the number of
+change (log2) as 1, the number of features were reduced up to 228.
+With the AUC analysis we further reduced the number of
 miRNAs and at the end of the statistical analysis, we identified
 219 miRNAs as a set of highly expressed miRNAs. From the
 univariate feature selection method, we identified 50 miRNAs
