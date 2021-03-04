@@ -279,7 +279,6 @@ hsa-let-7f-5p, hsa-let-7a-5p, hsa-miR-30d-5p, hsa-miR-15a-5p,
 hsa-miR-589-5p, hsa-miR-144-5p, and hsa-let-7f-5p.
 We used heat maps for making a judgement on the correlation of each features obtained from previously mentioned two
 methods. Figure 2 and Figure 3 show how different features obtained from PCA and Random Forest analysis, are correlated.
-
 With the help of the heat maps, we decided to use 36 less
 correlated features for further analysis using correlation coefficients. Out of the different machine learning algorithms which
 we modelled for our initial data set, we identified the three
