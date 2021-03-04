@@ -3,7 +3,7 @@ layout: home
 permalink: index.html
 
 # Please update this with your repository name and title
-repository-name: e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS
+repository-name: eYY-4yp-project-template
 title:
 ---
 
@@ -254,6 +254,31 @@ set of miRNAs and related diseases collected from the literature. There are 3554
 3.2 and it includes 1206 miRNAs, 893 diseases from 19280
 related publications.
 
+
+## Experiment Setup and Implementation
+
+
+
+## Results and Analysis
+
+At the end of the preprocessing stage, a data set with
+513 highly abundant miRNAs was obtained after removing
+miRNAs with less than 50 read counts across all samples.
+Considering the cut-off significance value as 0.05 and fold
+change (log2) as 1, the number of features were reduced up to
+228. With the AUC analysis we further reduced the number of
+miRNAs and at the end of the statistical analysis, we identified
+219 miRNAs as a set of highly expressed miRNAs. From the
+univariate feature selection method, we identified 50 miRNAs
+which have a significance relationship with class value. We
+identified 14 common miRNAs from two sets of miRNAs
+selected from PCA and random forest analysis. They are,
+• hsa-miR-186-5p
+• hsa-miR-144-3p
+• hsa-miR-151a-3p
+• hsa-miR-99b-5p
+• hsa-miR-98
+• hsa-miR-148a-3p
 • hsa-let-7g-5p
 • hsa-let-7f-5p
 • hsa-let-7a-5p
@@ -264,10 +289,6 @@ related publications.
 • hsa-let-7f-5p
 We used heat maps for making a judgement on the correlation of each features obtained from previously mentioned two
 methods. Fig. 2 and Fig. 3 show how different features obtained from PCA and Random Forest analysis, are correlated.
-
-## Experiment Setup and Implementation
-
-## Results and Analysis
 
 ## Conclusion
 
