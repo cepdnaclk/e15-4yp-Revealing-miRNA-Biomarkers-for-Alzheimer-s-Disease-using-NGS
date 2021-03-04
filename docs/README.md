@@ -236,7 +236,11 @@ of features which could be obtained from this part of feature
 selection. In the next part of the feature selection stage, we
 used correlation coefficient. As the correlation coefficient, we
 used Pearson correlation coefficient (Figure 1).
-![Optional Text](../master/feature_selection.png)
+<img src=“feature_selection.png”
+raw=true
+alt=“Subject Pronouns”
+style=“margin-right: 10px;”
+/>
 
 Classification
 
