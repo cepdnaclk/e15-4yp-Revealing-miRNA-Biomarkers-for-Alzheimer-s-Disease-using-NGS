@@ -296,7 +296,7 @@ calculated classification accuracy for the previously mentioned
 three subsets, we identified 11 miRNAs which provided the
 highest classification accuracy. They are, hsa-miR-4781-3p, brain-miR-112, hsa-let-7a-5p,
 hsa-miR-148b-5p, hsa-miR-29b-3p, brain-miR-431, hsa-miR-378a-5p, hsa-miR-548h-5p, hsa-miR-3909, 
-hsa-miR-625-5p, and hsa-miR-24-3p
+hsa-miR-625-5p, and hsa-miR-24-3p.
 ## Conclusion
 
 ## Publications
