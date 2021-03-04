@@ -78,13 +78,13 @@ methods. Quantile normalization is one way that we can do normalization when we 
 having a high dimensional dataset. It excludes selected samples to minimize noise [5, 6].
 Mean normalized read counts also can be used to filter out the miRNAs. Also we can
 follow a stepwise procedure to do normalization as below [12].
-• From all the samples, find sequences which are common.
-• Build a reference dataset using those common sequences.
-• Apply logarithmic transformation
-• Calculate the logarithmic difference between each sample and reference dataset.
-• Form a subset by taking sequences which has a difference<2.
-• Perform linear regression.
-• Calculate the mid value
+* From all the samples, find sequences which are common.
+* Build a reference dataset using those common sequences.
+* Apply logarithmic transformation
+* Calculate the logarithmic difference between each sample and reference dataset.
+* Form a subset by taking sequences which has a difference<2.
+* Perform linear regression.
+* Calculate the mid value
 Looking at the results obtained from the study which used the above normalization
 method, it can conclude that this type of step wise normalization method can be used
 for obtaining the best set of miRNAs. Data visualization can be used for selecting which
