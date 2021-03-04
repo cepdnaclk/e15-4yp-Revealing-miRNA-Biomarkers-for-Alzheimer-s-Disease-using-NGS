@@ -255,10 +255,6 @@ set of miRNAs and related diseases collected from the literature. There are 3554
 related publications.
 
 
-## Experiment Setup and Implementation
-
-
-
 ## Results and Analysis
 
 At the end of the preprocessing stage, a data set with
