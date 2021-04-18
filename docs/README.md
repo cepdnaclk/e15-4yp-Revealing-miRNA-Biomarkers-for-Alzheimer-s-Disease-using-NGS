@@ -163,6 +163,8 @@ samples. Considering all the drawbacks, limitations and also the developments fo
 the previous studies, in this research, we are focusing on finding a more accurate solution
 for detecting AD biomarkers.
 
+![Figure 02](https://github.com/cepdnaclk/e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS/blob/main/docs/Related_venn_diagram.png)
+
 
 ## Methodology
 
