@@ -309,7 +309,7 @@ In this report we have discussed about how to detect miRNA biomarkers for Alzhei
 
 ## Publications
 1. [Semester 7 report](./)
-2. [Semester 7 slides](./)
+2. [Semester 7 slides](https://github.com/cepdnaclk/e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS/blob/main/docs/publications/Semester%207%20slides.pdf)
 3. [Semester 8 report](./)
 4. [Semester 8 slides](./)
 5. Author 1, Author 2 and Author 3 "Research paper title" (2021). [PDF](./).
