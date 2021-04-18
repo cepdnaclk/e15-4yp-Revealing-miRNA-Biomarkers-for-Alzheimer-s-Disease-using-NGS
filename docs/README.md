@@ -319,10 +319,8 @@ In this report we have discussed about how to detect miRNA biomarkers for Alzhei
 
 [//]: # ( NOTE: EDIT THIS LINKS WITH YOUR REPO DETAILS )
 
-- [Project Repository](https://github.com/cepdnaclk/
-e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS )
-- [Project Page](https://cepdnaclk.github.io/
-e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS )
+- [Project Repository](https://github.com/cepdnaclk/e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS)
+- [Project Page](https://cepdnaclk.github.io/e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS)
 - [Department of Computer Engineering](http://www.ce.pdn.ac.lk/)
 - [University of Peradeniya](https://eng.pdn.ac.lk/)
 
