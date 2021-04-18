@@ -163,6 +163,8 @@ samples. Considering all the drawbacks, limitations and also the developments fo
 the previous studies, in this research, we are focusing on finding a more accurate solution
 for detecting AD biomarkers.
 
+Following Figure shows a summary of different methods used andthe results obtained in previous studies. According to this diagram, only 4 studies haveused machine learning algorithms and only 5 studies have used statistical methods intheir studies. Out of the results obtained from above mentioned 9 studies, 7 miRNAswere identified as common for those 9 studies.
+
 ![Figure 02](https://github.com/cepdnaclk/e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS/blob/main/docs/Related_venn_diagram.png)
 
 
