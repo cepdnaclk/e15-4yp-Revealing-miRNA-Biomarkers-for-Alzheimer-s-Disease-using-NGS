@@ -308,7 +308,7 @@ In this report we have discussed about how to detect miRNA biomarkers for Alzhei
  Leidinger et al., who have carried out a different method to find biomarkers using the same data set, have stated that they have obtained an accuracy of 93.3\% where we obtained an accuracy of 95.24\%. Addition to that we evaluated the results with specificity, sensitivity and AUC values as discussed previously. In addition to diagnosis of AD patients with the final set of biomarkers, the followed methodology can be used to identify different cures for other neurological diseases including AD, by effortlessly analyzing various data sets.
 
 ## Publications
-1. [Semester 7 report](./)
+1. [Semester 7 report](https://github.com/cepdnaclk/e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS/blob/main/docs/publications/Semester%207%20report.pdf)
 2. [Semester 7 slides](https://github.com/cepdnaclk/e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS/blob/main/docs/publications/Semester%207%20slides.pdf)
 3. [Semester 8 report](./)
 4. [Semester 8 slides](https://github.com/cepdnaclk/e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS/blob/main/docs/publications/Semester%208%20slides.pdf)
