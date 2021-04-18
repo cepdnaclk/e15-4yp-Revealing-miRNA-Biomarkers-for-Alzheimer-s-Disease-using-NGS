@@ -295,6 +295,9 @@ three subsets, we identified 11 miRNAs which provided the
 highest classification accuracy. They are, hsa-miR-4781-3p, brain-miR-112, hsa-let-7a-5p,
 hsa-miR-148b-5p, hsa-miR-29b-3p, brain-miR-431, hsa-miR-378a-5p, hsa-miR-548h-5p, hsa-miR-3909, 
 hsa-miR-625-5p, and hsa-miR-24-3p.
+
+
+
 ## Conclusion
 
 In this report we have discussed about how to detect miRNA biomarkers for Alzheimer’s disease using next generation sequencing. Initially we have discussed about the need of a solution to identify Alzheimer’s disease in the early stage. Then we have mentioned about the literature review we have done. When we were doing the literature review, we have identified several miRNA biomarkers in different studies which used NGS. In these studies there were some limitations.
