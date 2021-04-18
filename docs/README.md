@@ -297,6 +297,10 @@ hsa-miR-148b-5p, hsa-miR-29b-3p, brain-miR-431, hsa-miR-378a-5p, hsa-miR-548h-5p
 hsa-miR-625-5p, and hsa-miR-24-3p.
 ## Conclusion
 
+In this report we have discussed about how to detect miRNA biomarkers for Alzheimer’s disease using next generation sequencing. Initially we have discussed about the need of a solution to identify Alzheimer’s disease in the early stage. Then we have mentioned about the literature review we have done. When we were doing the literature review, we have identified several miRNA biomarkers in different studies which used NGS. In these studies there were some limitations.
+   In our approach so far, initially we have taken samples from participants with AD and control. Then samples were preprocessed and statistically analyzed. Significance values were calculated using Wilcoxon-Mann-Whitney (WMW) test. Also we have used ROC analysis. Using this procedure, here we have identified a set of significant miRNAs for AD. Using PCA, Random Forests and Correlation coefficient we identified 25 biomarker miRNAs for AD. In the next phase we validated the the result using HMDD v3.2. 
+ Leidinger et al., who have carried out a different method to find biomarkers using the same data set, have stated that they have obtained an accuracy of 93.3\% where we obtained an accuracy of 94.11\%. Addition to that we evaluated the results with specificity, sensitivity and AUC values as discussed previously. In addition to diagnosis of AD patients with the final set of biomarkers, the followed methodology can be used to identify different cures for other neurological diseases including AD, by effortlessly analyzing various data sets.
+
 ## Publications
 1. [Semester 7 report](./)
 2. [Semester 7 slides](./)
