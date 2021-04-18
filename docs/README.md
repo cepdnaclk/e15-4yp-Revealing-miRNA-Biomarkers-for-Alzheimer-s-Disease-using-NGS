@@ -27,11 +27,10 @@ title: Revealing miRNA Biomarkers for Alzheimer's Disease using Next Generation 
 1. [Abstract](#abstract)
 2. [Related works](#related-works)
 3. [Methodology](#methodology)
-4. [Experiment Setup and Implementation](#experiment-setup-and-implementation)
-5. [Results and Analysis](#results-and-analysis)
-6. [Conclusion](#conclusion)
-7. [Publications](#publications)
-8. [Links](#links)
+4. [Results and Analysis](#results-and-analysis)
+5. [Conclusion](#conclusion)
+6. [Publications](#publications)
+7. [Links](#links)
 
 ---
 
