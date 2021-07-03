@@ -9,7 +9,7 @@ title: Revealing miRNA Biomarkers for Alzheimer's Disease using Next Generation 
 
 [comment]: # "This is the standard layout for the project, but you can clean this and use your own template"
 
-# Project Title
+# Revealing MicroRNA Biomarkers for Alzheimer’s Disease Using Next Generation Sequencing Data
 
 #### Team
 
