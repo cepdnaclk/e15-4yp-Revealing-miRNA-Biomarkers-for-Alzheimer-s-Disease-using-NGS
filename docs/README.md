@@ -154,7 +154,7 @@ number of Alzheimer’s disease patients to do massive experiments. But we can o
 better results if we expand the cohort size. In many studies, samples with analyzed
 dementia and controls have used. But not discussing about the possibility to discover
 pre-clinical biomarkers for Alzheimer disease is a limitation of most of the previous
-studies. A model which was built in a one previously done study [11], does not develop
+studies. A model which was built in a one previously done study, does not develop
 to anticipate movement from HC to MCI or MCI to AD. Also, this model was incapable
 of applying for late-stage AD findings. In another study, they have mentioned that
 they were unable to recognize a mechanism to identify the variation of miRNAs in serum
