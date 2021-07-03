@@ -53,18 +53,18 @@ Sample selection
 
 When detecting biomarkers for Alzheimer’s disease, initially we have to select a sample for
 performing analysis. Mostly blood samples are used due to the high availability. Different
-types of blood samples including whole blood [5–9], serum [10–13] and plasma [14, 15]
+types of blood samples including whole blood, serum and plasma
 are used by many previous researchers where they have tried to find miRNA biomarkers.
 If we use brain samples it would give most accurate results than blood samples since
-AD is most prominently active in brain [16]. We would be able to give more accurate
+AD is most prominently active in brain. We would be able to give more accurate
 results if both blood and brain samples are used. Samples can be taken from participants
-generally as, AD and controls [6, 7, 10, 14] and also they can be taken considering the
-different stages as severe, moderate, mild AD and controls [12]. Another approach in
-collecting samples is taking then from participants with HC, MCI and AD [11]. The
+generally as, AD and controls and also they can be taken considering the
+different stages as severe, moderate, mild AD and controls. Another approach in
+collecting samples is taking then from participants with HC, MCI and AD. The
 number of samples used when developing a diagnosis method can be identified as one of
 the main factors which could affect the final results. Next generation sequencing platform
 is the most trending method used for gathering samples for various disease diagnosis
-researches. Many techniques like Illumina sequencing technique [5, 6, 8, 10, 12, 3] are
+researches. Many techniques like Illumina sequencing technique are
 introduced for working with NGS data. Preprocessing the raw sequence counts can be
 done using a bioinformatic pipeline, which gives the read counts for each miRNA as the
 final outcome.
@@ -74,9 +74,9 @@ Normalization
 
 Normalization of sequencing read counts can be performed using several normalization
 methods. Quantile normalization is one way that we can do normalization when we are
-having a high dimensional dataset. It excludes selected samples to minimize noise [5, 6].
+having a high dimensional dataset. It excludes selected samples to minimize noise.
 Mean normalized read counts also can be used to filter out the miRNAs. Also we can
-follow a stepwise procedure to do normalization as below [12].
+follow a stepwise procedure to do normalization as below.
 * From all the samples, find sequences which are common.
 * Build a reference dataset using those common sequences.
 * Apply logarithmic transformation
@@ -97,10 +97,10 @@ value). P value is a value between 0 and 1, which shows the level of statistical
 If a p value is less than the significance level (0.05), it is considered as a nominally
 significant p value and we can select those miRNA as the most impacting miRNAs.
 
-WMW test [10, 13], Wald test and Fisher’s exact test [7] can be used to calculate the p
+WMW test, Wald test and Fisher’s exact test can be used to calculate the p
 values and these p values can be adjusted for multiple testing using an approach like
-Benjamini-Hochberg approach [5, 6]. Other than that, t test and kruskal test can also
-be used to calculate significance values [14].
+Benjamini-Hochberg approach. Other than that, t test and kruskal test can also
+be used to calculate significance values.
 
 
 Validation of samples
@@ -109,11 +109,11 @@ Validation of the samples makes it easier for the next steps in the investigatio
 also it makes the final results more accurate. After the statistical analysis process,
 for validating the obtained samples, quantitative real time-polymerase chain reaction
 (qRT-PCR) method is used by many researchers. It analyzes the expression of single
-miRNAs by applying the method on previously used samples for sequencing [6, 8–13].
-But in a previous study [6], they have additionally included patients with AD and also
+miRNAs by applying the method on previously used samples for sequencing.
+But in a previous study, they have additionally included patients with AD and also
 patients with other neurological disorders in the validation step, to analyze the the set
 of miRNAs they obtained in the previous step. After the validation is carried out, the
-miRNAs can be further filtered out to obtain the most significant miRNAs [12].
+miRNAs can be further filtered out to obtain the most significant miRNAs.
 
 
 Receiver operating characteristic curves
@@ -131,10 +131,10 @@ Feature selection and Classification
 If we use a classification model without using feature selection, it will take more run time
 due to the huge size with redundant features. Therefore it is required to apply some
 feature selection method to reduce those redundant features. Hierarchical clustering
-is a feature selection method which can be used to statistically analyze the dataset
-[5, 6, 8, 9, 11]. It will build clusters of miRNAs having similar patterns. Principal
-Component Analysis is another approach which can be used for the feature selection
-[5, 9, 11]. Machine learning classifier models are used to predict whether a sample belongs
+is a feature selection method which can be used to statistically analyze the dataset.
+It will build clusters of miRNAs having similar patterns. Principal
+Component Analysis is another approach which can be used for the feature selection.
+Machine learning classifier models are used to predict whether a sample belongs
 to AD or control. AdaboostM1, J48 decision tree, random forest and support vector 
 machines and radial basis SVM are some machine learning approaches that can be used
 for building prediction models. In a previously done study, they have built a separate
@@ -156,7 +156,7 @@ dementia and controls have used. But not discussing about the possibility to dis
 pre-clinical biomarkers for Alzheimer disease is a limitation of most of the previous
 studies. A model which was built in a one previously done study [11], does not develop
 to anticipate movement from HC to MCI or MCI to AD. Also, this model was incapable
-of applying for late-stage AD findings. In another study [13], they have mentioned that
+of applying for late-stage AD findings. In another study, they have mentioned that
 they were unable to recognize a mechanism to identify the variation of miRNAs in serum
 samples. Considering all the drawbacks, limitations and also the developments found in
 the previous studies, in this research, we are focusing on finding a more accurate solution
