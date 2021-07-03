@@ -238,7 +238,7 @@ miRNAs from those two methods was identified as the best set
 of features which could be obtained from this part of feature
 selection. In the next part of the feature selection stage, we
 used correlation coefficient. As the correlation coefficient, we
-used Pearson correlation coefficient (Figure 1).
+used Pearson correlation coefficient.
 
 ![Figure 01](https://github.com/cepdnaclk/e15-4yp-Revealing-miRNA-Biomarkers-for-Alzheimer-s-Disease-using-NGS/blob/main/docs/Feature_Selection.png)
 
